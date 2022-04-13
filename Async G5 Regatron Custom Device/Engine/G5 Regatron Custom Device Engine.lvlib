@@ -4,15 +4,18 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
-		<Item Name="Init" Type="Folder"/>
+		<Item Name="Init" Type="Folder">
+			<Item Name="Connect to IP Address.vi" Type="VI" URL="../Connect to IP Address.vi"/>
+			<Item Name="Find FIFO Indexes.vi" Type="VI" URL="../Find FIFO Indexes.vi"/>
+			<Item Name="Get Input Array.vi" Type="VI" URL="../Get Input Array.vi"/>
+			<Item Name="Get Output Array.vi" Type="VI" URL="../Get Output Array.vi"/>
+		</Item>
 		<Item Name="Run" Type="Folder"/>
 		<Item Name="Shut Down" Type="Folder"/>
+		<Item Name="Utility" Type="Folder">
+			<Item Name="Write DebugTxt String.vi" Type="VI" URL="../../Utility/Write DebugTxt String.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder"/>
-	<Item Name="Connect to IP Address.vi" Type="VI" URL="../Connect to IP Address.vi"/>
-	<Item Name="Find FIFO Indexes.vi" Type="VI" URL="../Find FIFO Indexes.vi"/>
-	<Item Name="Get Input Array.vi" Type="VI" URL="../Get Input Array.vi"/>
-	<Item Name="Get Output Array.vi" Type="VI" URL="../Get Output Array.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
-	<Item Name="Write DebugTxt String.vi" Type="VI" URL="../../Utility/Write DebugTxt String.vi"/>
 </Library>
