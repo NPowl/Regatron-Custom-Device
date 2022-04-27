@@ -123,6 +123,7 @@
 			</Item>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Shared/Compiled.Settings.ctl"/>
 			<Item Name="Data Reference.ctl" Type="VI" URL="../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Data Reference.ctl"/>
+			<Item Name="G5 Regatron Custom Device Shared.lvlib" Type="Library" URL="../../G5 Regatron Custom Device/Shared/G5 Regatron Custom Device Shared.lvlib"/>
 			<Item Name="Hardware Interface Driver VI Operation.ctl" Type="VI" URL="../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Hardware Interface Driver VI Operation.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -465,6 +466,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Data Reference.ctl" Type="VI" URL="../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Data Reference.ctl"/>
+			<Item Name="G5 Regatron Custom Device Shared.lvlib" Type="Library" URL="../../G5 Regatron Custom Device/Shared/G5 Regatron Custom Device Shared.lvlib"/>
 			<Item Name="Hardware Interface Driver VI Operation.ctl" Type="VI" URL="../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Hardware Interface Driver VI Operation.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
