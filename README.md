@@ -2,7 +2,7 @@
  Repo for creating a VeriStand Custom Device for Regatron G5 devices.
 
 Dependencies:
-LabVIEW 2021 64-bit.
+LabVIEW 2020 32-bit.
 
 JKI Rest Client: https://www.vipm.io/package/jki_lib_rest_client/
 
