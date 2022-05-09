@@ -13,9 +13,11 @@
 		<Item Name="Run" Type="Folder"/>
 		<Item Name="Shut Down" Type="Folder"/>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Write Debug Text String.vi" Type="VI" URL="../Utility/Write Debug Text String.vi"/>
+			<Item Name="Write Debug Text String (Linux).vi" Type="VI" URL="../Utility/Write Debug Text String (Linux).vi"/>
+			<Item Name="Write Debug Text String (Windows).vi" Type="VI" URL="../Utility/Write Debug Text String (Windows).vi"/>
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder"/>
+	<Item Name="Close Connection.vi" Type="VI" URL="../Shutdown/Close Connection.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
