@@ -28,7 +28,6 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
-		<Item Name="Create System Output Values.vi" Type="VI" URL="../System Explorer/Channel Creation/Create System Output Values.vi"/>
 		<Item Name="Custom Device G5 Regatron Custom Device.xml" Type="Document" URL="../Custom Device G5 Regatron Custom Device.xml"/>
 		<Item Name="G5 Regatron Custom Device Engine.lvlib" Type="Library" URL="../Engine/G5 Regatron Custom Device Engine.lvlib"/>
 		<Item Name="G5 Regatron Custom Device Shared.lvlib" Type="Library" URL="../Shared/G5 Regatron Custom Device Shared.lvlib"/>
