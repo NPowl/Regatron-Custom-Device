@@ -191,8 +191,10 @@
 				<Property Name="Destination[2].destName" Type="Str">G5 Regatron Custom Device Configuration LLB</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/G5 Regatron Custom Device/Windows/G5 Regatron Custom Device Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E156EF35-1A91-443B-A6B6-C24D8B39B853}</Property>
+				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/G5 Regatron Custom Device/Windows/Data/Glyphs</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4005392B-22AF-4A73-90BB-5D696CD3EDC1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device G5 Regatron Custom Device.xml</Property>
@@ -249,7 +251,7 @@
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
@@ -1280,7 +1282,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33BA500F-D912-4FBE-B69A-DBCE2758CCAA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FDB4E0A8-29FE-4C82-9279-D4F0B393C623}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Linux x64/G5 Regatron Custom Device Engine.lvlib/RT Driver VI.vi</Property>
