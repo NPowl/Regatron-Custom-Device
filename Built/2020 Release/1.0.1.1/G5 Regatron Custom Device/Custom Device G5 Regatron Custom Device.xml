@@ -5,7 +5,7 @@
     <eng>NI::G5 Regatron Custom Device</eng>
     <loc>NI::G5 Regatron Custom Device</loc>
   </AddMenu>
-  <Version>1.0.1</Version>
+  <Version>1.0.1.1</Version>
   <Type>Asynchronous</Type>
   <MaxOccurrence>99</MaxOccurrence>
   <MainPageGUID>53720824-6858-4655-a7de-cc71540320c5</MainPageGUID>
@@ -70,7 +70,7 @@
       <GUID>53720824-6858-4655-a7de-cc71540320c5</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs\Regatron.png</Path>
+        <Path>Custom Devices\G5 Regatron Custom Device\Windows\Data\Regatron.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -123,7 +123,7 @@
       <GUID>8F7195A3-C212-4691-A53C-68437F1521B8</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs\Disabled.png</Path>
+        <Path>Custom Devices\G5 Regatron Custom Device\Windows\Data\Disabled.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>

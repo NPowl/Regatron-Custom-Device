@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="System Explorer" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="Enable Disable.vi" Type="VI" URL="../Enable Disable.vi"/>
@@ -33,5 +34,9 @@
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
+		<Item Name="Glyphs" Type="Folder">
+			<Item Name="Disabled.png" Type="Document" URL="../Glyphs/Disabled.png"/>
+			<Item Name="Regatron.png" Type="Document" URL="../Glyphs/Regatron.png"/>
+		</Item>
 	</Item>
 </Library>
