@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="System Explorer" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="Enable Disable.vi" Type="VI" URL="../Enable Disable.vi"/>
@@ -17,6 +18,7 @@
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Channel Creation" Type="Folder">
@@ -31,7 +33,12 @@
 				<Item Name="Create Utility.vi" Type="VI" URL="../Channel Creation/Create Utility.vi"/>
 			</Item>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Mutate 1-0-2-1.vi" Type="VI" URL="../Mutate 1-0-2-1.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
+		<Item Name="Glyphs" Type="Folder">
+			<Item Name="Disabled.png" Type="Document" URL="../Glyphs/Disabled.png"/>
+			<Item Name="Regatron.png" Type="Document" URL="../Glyphs/Regatron.png"/>
+		</Item>
 	</Item>
 </Library>

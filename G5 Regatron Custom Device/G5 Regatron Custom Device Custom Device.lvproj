@@ -22,9 +22,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Help" Type="Folder"/>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
@@ -143,7 +140,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../output/build</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -212,7 +209,7 @@
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Glyphs</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/G5 Regatron Custom Device System Explorer.lvlib/System Explorer/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
@@ -227,7 +224,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../output/build/Windows/G5 Regatron Custom Device Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
@@ -436,7 +433,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{E24CF77A-EDD5-435E-91DE-CAC6522BEA2A}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">Linux_x64/G5 Regatron Custom Device Engine Linux64.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">Linux_x64/G5 Regatron Custom Device Engine Linux64.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
