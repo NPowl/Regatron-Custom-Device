@@ -4,3 +4,12 @@ G5 Regatron Custom Device/G5 Regatron Custom Device Custom Device.lvproj.config
 Built/*
 output/*
 
+__pycache__/*
+
+.doit.db.dat
+.doit.db.dir
+.doit.db.bak
+G5 Regatron Custom Device/log-Regatron Custom Device.txt
+G5 Regatron Custom Device/ProcessingStage/*
+
+G5 Regatron Custom Device/Help/Build CHM.log

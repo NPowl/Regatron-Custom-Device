@@ -3,1484 +3,214 @@
     <SourceItems>
         <SourceItem z:Id="i2">
             <PluginConfigurationOptions />
-            <RelativePath>.git\COMMIT_EDITMSG</RelativePath>
+            <RelativePath>..\output\build\Custom Device G5 Regatron Custom Device.xml</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i3">
             <PluginConfigurationOptions />
-            <RelativePath>.git\config</RelativePath>
+            <RelativePath>..\output\build\Engine Release_depinstr.bin</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i4">
             <PluginConfigurationOptions />
-            <RelativePath>.git\description</RelativePath>
+            <RelativePath>..\output\build\Linux_x64\G5 Regatron Custom Device Engine Linux64.llb</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i5">
             <PluginConfigurationOptions />
-            <RelativePath>.git\FETCH_HEAD</RelativePath>
+            <RelativePath>..\output\build\Windows\Data\Glyphs\Disabled.png</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i6">
             <PluginConfigurationOptions />
-            <RelativePath>.git\HEAD</RelativePath>
+            <RelativePath>..\output\build\Windows\Data\Glyphs\Regatron.png</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i7">
             <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\applypatch-msg.sample</RelativePath>
+            <RelativePath>..\output\build\Windows\G5 Regatron Custom Device Configuration.llb</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i8">
             <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\commit-msg.sample</RelativePath>
+            <RelativePath>..\output\build\Windows\G5 Regatron Custom Device Engine Windows.llb</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i9">
             <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\fsmonitor-watchman.sample</RelativePath>
+            <RelativePath>..\output\build\Windows\G5 Regatron Custom Device.chm</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i10">
             <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\post-update.sample</RelativePath>
-            <DependentItems />
+            <RelativePath>..\output\build\Linux_x64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i4" />
+            </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i11">
             <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\pre-applypatch.sample</RelativePath>
-            <DependentItems />
+            <RelativePath>..\output\build\Windows\Data\Glyphs</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i5" />
+                <SourceItem z:Ref="i6" />
+            </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i12">
             <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\pre-commit.sample</RelativePath>
-            <DependentItems />
+            <RelativePath>..\output\build\Windows\Data</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i11" />
+            </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i13">
             <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\pre-merge-commit.sample</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i14">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\prepare-commit-msg.sample</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i15">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\pre-push.sample</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i16">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\pre-rebase.sample</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i17">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\pre-receive.sample</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i18">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\push-to-checkout.sample</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i19">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\hooks\update.sample</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i20">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\index</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i21">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\info\exclude</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i22">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\HEAD</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i23">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\heads\2021-AddEnableDisable</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i24">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\heads\main</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i25">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\remotes\origin\2021-AddEnableDisable</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i26">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\remotes\origin\HEAD</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i27">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\remotes\origin\main</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i28">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\0c\26eb6552105593d058570d304b64462dfa9075</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i29">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\54\963afbe8f763a59d557c7796d83063e908a7f6</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i30">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\82\abb949cdc3032f83932b56db7401f0a7c31429</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i31">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\a8\ef84d385726331f5fbfcd4f16bc63069a928cc</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i32">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\e4\d5aa3f3f64539d3eecbc210f857922867187b1</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i33">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\e4\ead981bbed632d4046c425142db20ac879eb9c</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i34">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\fb\008a2ba9fe3cba543d668380fbca7f7bf14dda</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i35">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\info</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i36">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\pack\pack-3d713a8f2f90e761eccc7f5fee423ad31932f28d.idx</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i37">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\pack\pack-3d713a8f2f90e761eccc7f5fee423ad31932f28d.pack</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i38">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\ORIG_HEAD</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i39">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\packed-refs</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i40">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\heads\2021-AddEnableDisable</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i41">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\heads\main</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i42">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\remotes\origin\2021-AddEnableDisable</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i43">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\remotes\origin\HEAD</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i44">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\remotes\origin\main</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i45">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\tags</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i46">
-            <PluginConfigurationOptions />
-            <RelativePath>.gitattributes</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i47">
-            <PluginConfigurationOptions />
-            <RelativePath>.gitignore</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i48">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Custom Device G5 Regatron Custom Device.xml</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i49">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Engine Release_depinstr.bin</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i50">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Linux_x64\G5 Regatron Custom Device Engine Linux64.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i51">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows\Data\Glyphs\Disabled.png</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i52">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows\Data\Glyphs\Regatron.png</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i53">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device Configuration.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i54">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device Engine Windows.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i55">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device.chm</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i56">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Example\Regatron.G5.Rest Simple Example.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i57">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Example\Regatron.G5.Rest VoltageSample.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i58">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Example\Regatron.G5.Rest VoltageSampleSmall.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i59">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\G5_LABVIEW_RestAPI_GettingStarted.pdf</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i60">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest Config.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i61">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest Datatypes.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i62">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest Firmware.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i63">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest Function generator.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i64">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest Handle.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i65">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest Protect Settings.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i66">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest System.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i67">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest VI Tree.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i68">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Regatron.G5.Rest.lvlib</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i69">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Custom Device G5 Regatron Custom Device.xml</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i70">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\G5 Regatron Custom Device Engine.lvlib</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i71">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Init\Connect to IP Address.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i72">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Init\Find FIFO Indexes.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i73">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Init\Get Input Array.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i74">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Init\Get Output Array.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i75">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\RT Driver VI.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i76">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Shutdown\Close Connection.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i77">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Utility\Write Debug Text String (Linux).vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i78">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Utility\Write Debug Text String (Windows).vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i79">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\G5 Regatron Custom Device Custom Device.aliases</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i80">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\G5 Regatron Custom Device Custom Device.lvlps</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i81">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\G5 Regatron Custom Device Custom Device.lvproj</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i82">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Glyphs\Disabled.png</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i83">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Glyphs\Regatron.png</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i84">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\Build CHM.cfg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i85">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\Build CHM.log</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i86">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\Build CHM.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i87">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\G5 Regatron Custom Device.chm</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i88">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\G5 Regatron Custom Device.hhp</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i89">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\css\expandable_tree.css</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i90">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\css\VSsystemexplorer.css</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i91">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\arraytools.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i92">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\checkinstalled.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i93">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\common.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i94">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\cssframes.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i95">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\domtools.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i96">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\dynamiccontent.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i97">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\dynamicjumps.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i98">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\dynamiclinks.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i99">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\expandable_tree.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i100">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\feedbacklink.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i101">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\Globals.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i102">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\initpagedyn.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i103">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\launchhelp.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i104">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\linking.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i105">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\objectnames.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i106">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\osbrowser.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i107">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\pdf.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i108">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\polyviselect.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i109">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\stylesheets.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i110">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\variables.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i111">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js\web.js</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i112">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\Main.htm</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i113">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\html_template.htm</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i114">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Compiled.Settings.ctl</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i115">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Constants.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i116">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\G5 Regatron Custom Device Shared.lvlib</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i117">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest Config.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i118">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest Datatypes.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i119">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest Firmware.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i120">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest Function generator.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i121">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest Handle.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i122">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest Protect Settings.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i123">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest System.llb</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i124">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest VI Tree.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i125">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared\Regatron.G5.Rest.lvlib</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i126">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\ActionVIOnCompile.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i127">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create Sense Reference Control.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i128">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create Sense Reference Read.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i129">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create System Control.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i130">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create System Limit Read.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i131">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create System Output Limits.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i132">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create System Output References.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i133">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create System Output Values.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i134">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create System Reference Read.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i135">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation\Create Utility.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i136">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Enable Disable.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i137">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Export Configuration RTM.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i138">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\G5 Regatron Custom Device System Explorer.lvlib</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i139">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Initialization VI.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i140">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Load Help File.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i141">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Main Page.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i142">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Utility\Copy .LLB to NI VeriStand dir.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i143">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Utility\LLB Pre-Build CHM Build.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i144">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Example Screen.nivsscr</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i145">
-            <PluginConfigurationOptions />
-            <RelativePath>g5-regatron-custom-device.vipc</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i146">
-            <PluginConfigurationOptions />
-            <RelativePath>README.md</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i147">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\info</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i21" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i148">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\0c</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i28" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i149">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\54</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i29" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i150">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\82</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i30" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i151">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\a8</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i31" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i152">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\fb</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i34" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i153">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Linux_x64</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i50" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i154">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Shutdown</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i76" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i155">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\heads</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i23" />
-                <SourceItem z:Ref="i24" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i156">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\e4</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i32" />
-                <SourceItem z:Ref="i33" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i157">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects\pack</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i36" />
-                <SourceItem z:Ref="i37" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i158">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\heads</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i40" />
-                <SourceItem z:Ref="i41" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i159">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows\Data\Glyphs</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i51" />
-                <SourceItem z:Ref="i52" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i160">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Utility</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i77" />
-                <SourceItem z:Ref="i78" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i161">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Glyphs</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i82" />
-                <SourceItem z:Ref="i83" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i162">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\css</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i89" />
-                <SourceItem z:Ref="i90" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i163">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Utility</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i142" />
-                <SourceItem z:Ref="i143" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i164">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\remotes\origin</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i25" />
-                <SourceItem z:Ref="i26" />
-                <SourceItem z:Ref="i27" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i165">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\remotes\origin</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i42" />
-                <SourceItem z:Ref="i43" />
-                <SourceItem z:Ref="i44" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i166">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API\Example</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i56" />
-                <SourceItem z:Ref="i57" />
-                <SourceItem z:Ref="i58" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i167">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine\Init</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i71" />
-                <SourceItem z:Ref="i72" />
-                <SourceItem z:Ref="i73" />
-                <SourceItem z:Ref="i74" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i168">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer\Channel Creation</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i127" />
-                <SourceItem z:Ref="i128" />
-                <SourceItem z:Ref="i129" />
-                <SourceItem z:Ref="i130" />
-                <SourceItem z:Ref="i131" />
-                <SourceItem z:Ref="i132" />
-                <SourceItem z:Ref="i133" />
-                <SourceItem z:Ref="i134" />
-                <SourceItem z:Ref="i135" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i169">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Shared</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i114" />
-                <SourceItem z:Ref="i115" />
-                <SourceItem z:Ref="i116" />
-                <SourceItem z:Ref="i117" />
-                <SourceItem z:Ref="i118" />
-                <SourceItem z:Ref="i119" />
-                <SourceItem z:Ref="i120" />
-                <SourceItem z:Ref="i121" />
-                <SourceItem z:Ref="i122" />
-                <SourceItem z:Ref="i123" />
-                <SourceItem z:Ref="i124" />
-                <SourceItem z:Ref="i125" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i170">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\hooks</RelativePath>
+            <RelativePath>..\output\build\Windows</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i7" />
                 <SourceItem z:Ref="i8" />
                 <SourceItem z:Ref="i9" />
-                <SourceItem z:Ref="i10" />
-                <SourceItem z:Ref="i11" />
                 <SourceItem z:Ref="i12" />
-                <SourceItem z:Ref="i13" />
-                <SourceItem z:Ref="i15" />
-                <SourceItem z:Ref="i16" />
-                <SourceItem z:Ref="i17" />
-                <SourceItem z:Ref="i14" />
-                <SourceItem z:Ref="i18" />
-                <SourceItem z:Ref="i19" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i171">
+        <SourceItem z:Id="i14">
             <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source\js</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i91" />
-                <SourceItem z:Ref="i92" />
-                <SourceItem z:Ref="i93" />
-                <SourceItem z:Ref="i94" />
-                <SourceItem z:Ref="i95" />
-                <SourceItem z:Ref="i96" />
-                <SourceItem z:Ref="i97" />
-                <SourceItem z:Ref="i98" />
-                <SourceItem z:Ref="i99" />
-                <SourceItem z:Ref="i100" />
-                <SourceItem z:Ref="i101" />
-                <SourceItem z:Ref="i102" />
-                <SourceItem z:Ref="i103" />
-                <SourceItem z:Ref="i104" />
-                <SourceItem z:Ref="i105" />
-                <SourceItem z:Ref="i106" />
-                <SourceItem z:Ref="i107" />
-                <SourceItem z:Ref="i108" />
-                <SourceItem z:Ref="i109" />
-                <SourceItem z:Ref="i110" />
-                <SourceItem z:Ref="i111" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i172">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs\remotes</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i164" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i173">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs\remotes</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i165" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i174">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows\Data</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i159" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i175">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help\HTML Help Source</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i112" />
-                <SourceItem z:Ref="i162" />
-                <SourceItem z:Ref="i171" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i176">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Engine</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i70" />
-                <SourceItem z:Ref="i75" />
-                <SourceItem z:Ref="i167" />
-                <SourceItem z:Ref="i154" />
-                <SourceItem z:Ref="i160" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i177">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\objects</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i148" />
-                <SourceItem z:Ref="i149" />
-                <SourceItem z:Ref="i150" />
-                <SourceItem z:Ref="i151" />
-                <SourceItem z:Ref="i156" />
-                <SourceItem z:Ref="i152" />
-                <SourceItem z:Ref="i35" />
-                <SourceItem z:Ref="i157" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i178">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\System Explorer</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i126" />
-                <SourceItem z:Ref="i136" />
-                <SourceItem z:Ref="i137" />
-                <SourceItem z:Ref="i138" />
-                <SourceItem z:Ref="i139" />
-                <SourceItem z:Ref="i140" />
-                <SourceItem z:Ref="i141" />
-                <SourceItem z:Ref="i168" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i179">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 LabVIEW REST API</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i59" />
-                <SourceItem z:Ref="i60" />
-                <SourceItem z:Ref="i61" />
-                <SourceItem z:Ref="i62" />
-                <SourceItem z:Ref="i63" />
-                <SourceItem z:Ref="i64" />
-                <SourceItem z:Ref="i65" />
-                <SourceItem z:Ref="i66" />
-                <SourceItem z:Ref="i67" />
-                <SourceItem z:Ref="i68" />
-                <SourceItem z:Ref="i166" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i180">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs\refs</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i155" />
-                <SourceItem z:Ref="i172" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i181">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\refs</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i158" />
-                <SourceItem z:Ref="i173" />
-                <SourceItem z:Ref="i45" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i182">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device\Windows</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i53" />
-                <SourceItem z:Ref="i54" />
-                <SourceItem z:Ref="i55" />
-                <SourceItem z:Ref="i174" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i183">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device\Help</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i84" />
-                <SourceItem z:Ref="i85" />
-                <SourceItem z:Ref="i86" />
-                <SourceItem z:Ref="i87" />
-                <SourceItem z:Ref="i88" />
-                <SourceItem z:Ref="i113" />
-                <SourceItem z:Ref="i175" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i184">
-            <PluginConfigurationOptions />
-            <RelativePath>.git\logs</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i22" />
-                <SourceItem z:Ref="i180" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i185">
-            <PluginConfigurationOptions />
-            <RelativePath>Built\G5 Regatron Custom Device</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i48" />
-                <SourceItem z:Ref="i49" />
-                <SourceItem z:Ref="i153" />
-                <SourceItem z:Ref="i182" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i186">
-            <PluginConfigurationOptions />
-            <RelativePath>G5 Regatron Custom Device</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i69" />
-                <SourceItem z:Ref="i79" />
-                <SourceItem z:Ref="i80" />
-                <SourceItem z:Ref="i81" />
-                <SourceItem z:Ref="i176" />
-                <SourceItem z:Ref="i161" />
-                <SourceItem z:Ref="i183" />
-                <SourceItem z:Ref="i169" />
-                <SourceItem z:Ref="i178" />
-                <SourceItem z:Ref="i163" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i187">
-            <PluginConfigurationOptions />
-            <RelativePath>Built</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i185" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i188">
-            <PluginConfigurationOptions />
-            <RelativePath>.git</RelativePath>
+            <RelativePath>..\output\build</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i2" />
                 <SourceItem z:Ref="i3" />
-                <SourceItem z:Ref="i4" />
-                <SourceItem z:Ref="i5" />
-                <SourceItem z:Ref="i6" />
-                <SourceItem z:Ref="i20" />
-                <SourceItem z:Ref="i38" />
-                <SourceItem z:Ref="i39" />
-                <SourceItem z:Ref="i170" />
-                <SourceItem z:Ref="i147" />
-                <SourceItem z:Ref="i184" />
-                <SourceItem z:Ref="i177" />
-                <SourceItem z:Ref="i181" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i189">
-            <PluginConfigurationOptions />
-            <RelativePath>..\Regatron-Custom-Device</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i46" />
-                <SourceItem z:Ref="i47" />
-                <SourceItem z:Ref="i144" />
-                <SourceItem z:Ref="i145" />
-                <SourceItem z:Ref="i146" />
-                <SourceItem z:Ref="i188" />
-                <SourceItem z:Ref="i187" />
-                <SourceItem z:Ref="i179" />
-                <SourceItem z:Ref="i186" />
+                <SourceItem z:Ref="i10" />
+                <SourceItem z:Ref="i13" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
     </SourceItems>
     <InputSourceItems>
-        <SourceItem z:Ref="i189" />
+        <SourceItem z:Ref="i14" />
     </InputSourceItems>
     <Distributions>
-        <Distribution z:Id="i190" i:type="Package">
+        <Distribution z:Id="i15" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i191" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i16" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents</DestinationRelativePath>
                     <Name>Public Documents</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i192" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i17" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments</DestinationRelativePath>
                     <Name>Nationatal Instruments</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i193" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i18" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021</DestinationRelativePath>
                     <Name>NI Veristand 2021</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i194" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i19" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices</DestinationRelativePath>
                     <Name>Custom Devices</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i195" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i20" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i196" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i21" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Custom Device G5 Regatron Custom Device.xml</DestinationRelativePath>
                     <Name>Custom Device G5 Regatron Custom Device.xml</Name>
-                    <SourceItem z:Ref="i48" />
+                    <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i197" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Engine Release_depinstr.bin</DestinationRelativePath>
-                    <Name>Engine Release_depinstr.bin</Name>
-                    <SourceItem z:Ref="i49" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i198" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i22" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Linux_x64</DestinationRelativePath>
                     <Name>Linux_x64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i199" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i23" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Linux_x64\G5 Regatron Custom Device Engine Linux64.llb</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device Engine Linux64.llb</Name>
-                    <SourceItem z:Ref="i50" />
+                    <SourceItem z:Ref="i4" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i200" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i24" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows</DestinationRelativePath>
                     <Name>Windows</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i201" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i25" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device Configuration.llb</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device Configuration.llb</Name>
-                    <SourceItem z:Ref="i53" />
+                    <SourceItem z:Ref="i7" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i202" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i26" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device Engine Windows.llb</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device Engine Windows.llb</Name>
-                    <SourceItem z:Ref="i54" />
+                    <SourceItem z:Ref="i8" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i203" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i27" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device.chm</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device.chm</Name>
-                    <SourceItem z:Ref="i55" />
+                    <SourceItem z:Ref="i9" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i204" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i28" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data</DestinationRelativePath>
                     <Name>Data</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i205" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i29" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs</DestinationRelativePath>
                     <Name>Glyphs</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i206" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i30" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs\Disabled.png</DestinationRelativePath>
                     <Name>Disabled.png</Name>
-                    <SourceItem z:Ref="i51" />
+                    <SourceItem z:Ref="i5" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i207" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i31" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs\Regatron.png</DestinationRelativePath>
                     <Name>Regatron.png</Name>
-                    <SourceItem z:Ref="i52" />
+                    <SourceItem z:Ref="i6" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
             </DistributionItems>
             <Name>Regatron G5 Custom Device</Name>
-            <OutputDirectory>output\package</OutputDirectory>
+            <OutputDirectory>..\output\package</OutputDirectory>
             <PluginConfigurationOptions>
-                <ConfigurationOption z:Id="i208">
-                    <Definition z:Id="i209">
+                <ConfigurationOption z:Id="i32">
+                    <Definition z:Id="i33">
                         <Description>Publish LabVIEW NXG projects as examples or templates.</Description>
                         <Name>Publish examples to LabVIEW NXG</Name>
                     </Definition>
                     <HasDefaultValues>true</HasDefaultValues>
-                    <Value z:Id="i210" i:type="DialogConfigurationOptionValue">
+                    <Value z:Id="i34" i:type="DialogConfigurationOptionValue">
                         <Values>
-                            <ConfigurationOptionValue z:Id="i211" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
-                                <d8p1:Value z:Id="i212" i:type="d8p1:LauncherRoot">
+                            <ConfigurationOptionValue z:Id="i35" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
+                                <d8p1:Value z:Id="i36" i:type="d8p1:LauncherRoot">
                                     <d8p1:Children />
                                 </d8p1:Value>
                             </ConfigurationOptionValue>
@@ -1490,14 +220,16 @@
             </PluginConfigurationOptions>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
-            <BuildStatus z:Id="i213">
-                <FileName />
-                <Version>none</Version>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i37">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>northvolt-regatron-custom-device_1.0.0.0_windows_x64.nipkg</FileName>
+                <Version>1.0.0.0</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>Regatron G5 Custom Device</DisplayName>
-            <FileName>northvolt-regatron-custom-device_1.0.0.0_windows_x64.nipkg</FileName>
+            <FileName>northvolt-regatron-custom-device_1.0.0.1_windows_x64.nipkg</FileName>
             <MaintainerEmail>diego.moreno@northvolt.com</MaintainerEmail>
             <MaintainerName>Northvolt</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -1506,14 +238,14 @@
             <ProductName>MyProduct</ProductName>
             <Section>Add-Ons</Section>
             <Synopsis>Custom Device for Regatron G5 battery cyclers</Synopsis>
-            <Version>1.0.0.0</Version>
+            <Version>1.0.0.1</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i214">
+        <DistributionGroup z:Id="i38">
             <Distributions>
-                <Distribution z:Ref="i190" />
+                <Distribution z:Ref="i15" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>

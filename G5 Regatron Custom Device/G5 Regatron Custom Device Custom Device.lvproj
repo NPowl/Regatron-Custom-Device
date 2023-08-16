@@ -297,7 +297,7 @@
 		</Item>
 	</Item>
 	<Item Name="RT PXI Target - Linux x64" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
+		<Property Name="alias.name" Type="Str">RT PXI Target - Linux x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
