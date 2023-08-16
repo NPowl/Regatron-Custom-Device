@@ -21,13 +21,13 @@
         </SourceItem>
         <SourceItem z:Id="i5">
             <PluginConfigurationOptions />
-            <RelativePath>..\output\build\Windows\Data\Glyphs\Disabled.png</RelativePath>
+            <RelativePath>..\output\build\Windows\Data\Disabled.png</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i6">
             <PluginConfigurationOptions />
-            <RelativePath>..\output\build\Windows\Data\Glyphs\Regatron.png</RelativePath>
+            <RelativePath>..\output\build\Windows\Data\Regatron.png</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
@@ -59,7 +59,7 @@
         </SourceItem>
         <SourceItem z:Id="i11">
             <PluginConfigurationOptions />
-            <RelativePath>..\output\build\Windows\Data\Glyphs</RelativePath>
+            <RelativePath>..\output\build\Windows\Data</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i5" />
                 <SourceItem z:Ref="i6" />
@@ -68,130 +68,117 @@
         </SourceItem>
         <SourceItem z:Id="i12">
             <PluginConfigurationOptions />
-            <RelativePath>..\output\build\Windows\Data</RelativePath>
+            <RelativePath>..\output\build\Windows</RelativePath>
             <DependentItems>
+                <SourceItem z:Ref="i7" />
+                <SourceItem z:Ref="i8" />
+                <SourceItem z:Ref="i9" />
                 <SourceItem z:Ref="i11" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i13">
             <PluginConfigurationOptions />
-            <RelativePath>..\output\build\Windows</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i7" />
-                <SourceItem z:Ref="i8" />
-                <SourceItem z:Ref="i9" />
-                <SourceItem z:Ref="i12" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i14">
-            <PluginConfigurationOptions />
             <RelativePath>..\output\build</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i2" />
                 <SourceItem z:Ref="i3" />
                 <SourceItem z:Ref="i10" />
-                <SourceItem z:Ref="i13" />
+                <SourceItem z:Ref="i12" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
     </SourceItems>
     <InputSourceItems>
-        <SourceItem z:Ref="i14" />
+        <SourceItem z:Ref="i13" />
     </InputSourceItems>
     <Distributions>
-        <Distribution z:Id="i15" i:type="Package">
+        <Distribution z:Id="i14" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i16" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i15" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents</DestinationRelativePath>
                     <Name>Public Documents</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i17" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i16" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments</DestinationRelativePath>
                     <Name>Nationatal Instruments</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i18" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i17" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021</DestinationRelativePath>
                     <Name>NI Veristand 2021</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i19" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i18" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices</DestinationRelativePath>
                     <Name>Custom Devices</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i20" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i19" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i21" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i20" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Custom Device G5 Regatron Custom Device.xml</DestinationRelativePath>
                     <Name>Custom Device G5 Regatron Custom Device.xml</Name>
                     <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i22" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i21" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Linux_x64</DestinationRelativePath>
                     <Name>Linux_x64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i23" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i22" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Linux_x64\G5 Regatron Custom Device Engine Linux64.llb</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device Engine Linux64.llb</Name>
                     <SourceItem z:Ref="i4" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i24" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i23" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows</DestinationRelativePath>
                     <Name>Windows</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i25" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i24" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device Configuration.llb</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device Configuration.llb</Name>
                     <SourceItem z:Ref="i7" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i26" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i25" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device Engine Windows.llb</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device Engine Windows.llb</Name>
                     <SourceItem z:Ref="i8" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i27" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i26" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\G5 Regatron Custom Device.chm</DestinationRelativePath>
                     <Name>G5 Regatron Custom Device.chm</Name>
                     <SourceItem z:Ref="i9" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i28" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i27" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data</DestinationRelativePath>
                     <Name>Data</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i29" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs</DestinationRelativePath>
-                    <Name>Glyphs</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i30" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs\Disabled.png</DestinationRelativePath>
+                <DistributionItem z:Id="i28" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Disabled.png</DestinationRelativePath>
                     <Name>Disabled.png</Name>
                     <SourceItem z:Ref="i5" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i31" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Glyphs\Regatron.png</DestinationRelativePath>
+                <DistributionItem z:Id="i29" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Home]\Public Documents\Nationatal Instruments\NI Veristand 2021\Custom Devices\G5 Regatron Custom Device\Windows\Data\Regatron.png</DestinationRelativePath>
                     <Name>Regatron.png</Name>
                     <SourceItem z:Ref="i6" />
                     <PluginConfigurationOptions />
@@ -201,16 +188,16 @@
             <Name>Regatron G5 Custom Device</Name>
             <OutputDirectory>..\output\package</OutputDirectory>
             <PluginConfigurationOptions>
-                <ConfigurationOption z:Id="i32">
-                    <Definition z:Id="i33">
+                <ConfigurationOption z:Id="i30">
+                    <Definition z:Id="i31">
                         <Description>Publish LabVIEW NXG projects as examples or templates.</Description>
                         <Name>Publish examples to LabVIEW NXG</Name>
                     </Definition>
                     <HasDefaultValues>true</HasDefaultValues>
-                    <Value z:Id="i34" i:type="DialogConfigurationOptionValue">
+                    <Value z:Id="i32" i:type="DialogConfigurationOptionValue">
                         <Values>
-                            <ConfigurationOptionValue z:Id="i35" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
-                                <d8p1:Value z:Id="i36" i:type="d8p1:LauncherRoot">
+                            <ConfigurationOptionValue z:Id="i33" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
+                                <d8p1:Value z:Id="i34" i:type="d8p1:LauncherRoot">
                                     <d8p1:Children />
                                 </d8p1:Value>
                             </ConfigurationOptionValue>
@@ -221,15 +208,15 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i37">
+            <BuildStatus z:Id="i35">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>northvolt-regatron-custom-device_1.0.0.0_windows_x64.nipkg</FileName>
-                <Version>1.0.0.0</Version>
+                <FileName>northvolt-regatron-custom-device_1.0.0.1_windows_x64.nipkg</FileName>
+                <Version>1.0.0.1</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>Regatron G5 Custom Device</DisplayName>
-            <FileName>northvolt-regatron-custom-device_1.0.0.1_windows_x64.nipkg</FileName>
+            <FileName>northvolt-regatron-custom-device_1.0.0.2_windows_x64.nipkg</FileName>
             <MaintainerEmail>diego.moreno@northvolt.com</MaintainerEmail>
             <MaintainerName>Northvolt</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -238,14 +225,14 @@
             <ProductName>MyProduct</ProductName>
             <Section>Add-Ons</Section>
             <Synopsis>Custom Device for Regatron G5 battery cyclers</Synopsis>
-            <Version>1.0.0.1</Version>
+            <Version>1.0.0.2</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i38">
+        <DistributionGroup z:Id="i36">
             <Distributions>
-                <Distribution z:Ref="i15" />
+                <Distribution z:Ref="i14" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
