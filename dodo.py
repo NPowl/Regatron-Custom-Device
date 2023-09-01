@@ -10,7 +10,7 @@ output_path = cwd / 'output'
 file_list = []
 
 #Write the release version to file
-version = "1.0.4.2"
+version = "1.0.4.6"
 f= open("version.txt",'w')
 f.write(version)
 f.close()
@@ -52,8 +52,9 @@ namespaces = {
 version_elements = package_xml_root.findall(".//default:Version", namespaces)
 
 
-version_elements[0].text = version_elements[1].text # set the current version to version of the last build
-version_elements[1].text = version # set the new version
+
+version_elements[0].text = version # set the new version
+version_elements[1].text = version
 
 # Save the modified XML back to the file
 package_xml_tree.write(package_xml, encoding="utf-8", xml_declaration=True)
