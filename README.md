@@ -1,8 +1,12 @@
 # Regatron Custom Device
  Repo for creating a VeriStand Custom Device for Regatron G5 devices.
 
-To use - clone the "Built" folder. There are 2020 and 2021 releases in this folder.
-Copy the internal "G5 Regatron Custom Device" folder into "C:\Users\Public\Documents\National Instruments\NI VeriStand 202X\Custom Devices\G5 Regatron Custom Device", replacing X with your VeriStand version.
+Only supports Veristand 2021!
+
+This custom device can be build from Labview and the build will be copied to Public Documents/National Instruments/NI VeriStand 2021/Custom Devices for local testing
+
+For a release please use the "build_package" command through the pydoit python package. Set the version in the "dodo.py" file!
+
 
 
 > **Important:**  Install the "HTTP Client with SSL Support" package on the NI Real-Time target using NI MAX. Without this package the deployment will fail!
@@ -11,9 +15,9 @@ Copy the internal "G5 Regatron Custom Device" folder into "C:\Users\Public\Docum
 
 To build from source:
 
-Dependencies:
-LabVIEW 2020 32-bit 
-OR LabVIEW 2021 64-bit
+## Dependencies:
+LabVIEW 2021 64-bit
+Labview Real Time Module 2021
 
 JKI Rest Client: https://www.vipm.io/package/jki_lib_rest_client/
 

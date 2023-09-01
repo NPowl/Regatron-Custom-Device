@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
   <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
     <eng>NI::G5 Regatron Custom Device</eng>
     <loc>NI::G5 Regatron Custom Device</loc>
   </AddMenu>
-  <Version>1.0.3.1</Version>
+  <Version>1.0.4.2</Version>
   <Type>Asynchronous</Type>
   <MaxOccurrence>99</MaxOccurrence>
   <MainPageGUID>53720824-6858-4655-a7de-cc71540320c5</MainPageGUID>
@@ -180,6 +180,6 @@
     
   </Pages>
   <CustomXML>
-    <Dummy></Dummy>
+    <Dummy />
   </CustomXML>
 </CustomDevice>

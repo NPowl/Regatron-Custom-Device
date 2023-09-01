@@ -2,6 +2,7 @@ from pathlib import Path
 from doit.tools import result_dep
 import shutil
 import os
+import xml.etree.ElementTree as ET
 
 cwd = Path.cwd()
 output_path = cwd / 'output'
@@ -9,10 +10,54 @@ output_path = cwd / 'output'
 file_list = []
 
 #Write the release version to file
-version = "1.0.0"
+version = "1.0.4.2"
 f= open("version.txt",'w')
 f.write(version)
 f.close()
+
+
+
+# Load the custom device XML from a file
+cd_xml = cwd / "G5 Regatron Custom Device" / "Custom Device G5 Regatron Custom Device.xml"
+cd_xml_tree = ET.parse(cd_xml)
+cd_xml_root = cd_xml_tree.getroot()
+
+# Find the Version element and modify its text
+version_element = cd_xml_root.find("Version")
+
+if version_element is not None:
+    version_element.text = version  # Modify the version here
+
+# Save the modified XML back to the file
+cd_xml_tree.write(cd_xml, encoding="utf-8", xml_declaration=True)
+
+
+ET.register_namespace("i",  "http://www.w3.org/2001/XMLSchema-instance")
+ET.register_namespace("z",  "http://schemas.microsoft.com/2003/10/Serialization/")
+ET.register_namespace("",  "http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine")
+ET.register_namespace("d8p1","http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG")
+
+# Load the custom device package builder XML from file
+package_xml = cwd / "G5 Regatron Custom Device" / "Regatron Custom Device.pbs"
+package_xml_tree = ET.parse(package_xml)
+package_xml_root = package_xml_tree.getroot()
+
+# Define the namespaces
+namespaces = {
+    "z": "http://schemas.microsoft.com/2003/10/Serialization/",
+    "default": "http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine"
+}
+
+# Find the Version element using namespaces
+version_elements = package_xml_root.findall(".//default:Version", namespaces)
+
+
+version_elements[0].text = version_elements[1].text # set the current version to version of the last build
+version_elements[1].text = version # set the new version
+
+# Save the modified XML back to the file
+package_xml_tree.write(package_xml, encoding="utf-8", xml_declaration=True)
+
 
 
 #create output folder structure:
