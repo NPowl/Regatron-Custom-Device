@@ -4,6 +4,9 @@
 To use - clone the "Built" folder. There are 2020 and 2021 releases in this folder.
 Copy the internal "G5 Regatron Custom Device" folder into "C:\Users\Public\Documents\National Instruments\NI VeriStand 202X\Custom Devices\G5 Regatron Custom Device", replacing X with your VeriStand version.
 
+
+> **Important:**  Install the "HTTP Client with SSL Support" package on the NI Real-Time target using NI MAX. Without this package the deployment will fail!
+ 
 ############
 
 To build from source:
@@ -34,3 +37,5 @@ Changing Glyphs of channels
 Creation of full channel documentation.
 
 Creation of HTML help documents
+
+
